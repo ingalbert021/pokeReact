@@ -1,0 +1,33 @@
+
+/*cabecera*/
+.logo{
+width: 400px;
+height: 300px;
+
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #482a73;
+}
+
+ul li{
+    padding-left:25px;
+   margin-top: 20px;
+   color:white
+   
+}
+
+/*Pie de pagina*/
+footer{
+    color:white;
+    border: 1px solid black;
+}
+.card-body{
+    background: #482a73;
+
+}
