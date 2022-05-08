@@ -1,4 +1,11 @@
 
+
+/*fonts*/
+*{
+font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+
 /*cabecera*/
 .logo{
 width: 400px;
@@ -6,6 +13,11 @@ height: 300px;
 
 }
 
+.links{
+    text-decoration: none !important;
+    color:rgb(248, 245, 245);
+    background:#482a73;
+}
 .circulo {
     width: 100px;
     height: 100px;
@@ -22,10 +34,15 @@ ul li{
    
 }
 
+.icon{
+    width: 75px;
+
+}
 /*Pie de pagina*/
 footer{
     color:white;
     border: 1px solid black;
+   
 }
 .card-body{
     background: #482a73;

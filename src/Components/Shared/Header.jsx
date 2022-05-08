@@ -2,6 +2,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from '../../Assets/IMG/logo.png';
+
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,13 +11,16 @@ export default function Header() {
     return (
         <>
 <div>
-<div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-    <img src={logo} className="logo" alt="Logo" />
+<div className="container">
+  <div className="row align-items-start">
+    <div className="col">
+        
+    <img src={logo} className="logo offset-5" alt="Logo" />
+    
+   
     </div>
 
-    <div class="col">
+    <div className="col">
     
     <div className="circulo fixed-top">
     <ul className="navbar-nav">
@@ -25,7 +29,7 @@ export default function Header() {
         </li>
         
         <li>
-            <NavLink to='/poke'>PokemonesSearch</NavLink>
+            <NavLink className="links shadow rounded" to='/poke'>PokemonesSearch</NavLink>
         </li>
     </ul>
     </div>
