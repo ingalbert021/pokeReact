@@ -15,7 +15,7 @@ export default function Header() {
   <div className="row align-items-start">
     <div className="col">
         
-    <img src={logo} className="logo offset-5" alt="Logo" />
+    <img src={logo} className="logo offset-7" alt="Logo" />
     
    
     </div>
@@ -29,7 +29,7 @@ export default function Header() {
         </li>
         
         <li>
-            <NavLink className="links shadow rounded" to='/poke'>PokemonesSearch</NavLink>
+            <NavLink className="active link-light links shadow rounded" to='/poke'>busqueda!</NavLink>
         </li>
     </ul>
     </div>

@@ -1,5 +1,6 @@
 
 import React from "react";
+import git from '../../Assets/IMG/git.ico';
 import '../../Assets/Styles/styles.css';
 export default function Footer() {
 
@@ -9,6 +10,8 @@ export default function Footer() {
 <div className="card">
   <div className="card-body">
   copyright©albertodelacruz.
+  <a href="https://ingalbert021.github.io/presentacion/" target="_blank"><img src={git} className="icon" alt="git" /></a>
+  
   </div>
 </div>
   </footer>
