@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pokeReact/static/css/main.134f2eca.css",
+    "main.js": "/pokeReact/static/js/main.33e66ad5.js",
+    "static/js/787.918b1e69.chunk.js": "/pokeReact/static/js/787.918b1e69.chunk.js",
+    "static/media/ash.ico": "/pokeReact/static/media/ash.147cf875de3127ce0895.ico",
+    "static/media/ball.ico": "/pokeReact/static/media/ball.d7a801509b49df6a0e0a.ico",
+    "static/media/git.ico": "/pokeReact/static/media/git.e58b32d4873327703e5a.ico",
+    "static/media/location.ico": "/pokeReact/static/media/location.6abb13e8ec200ea2cf91.ico",
+    "static/media/logo.png": "/pokeReact/static/media/logo.45e6377ed4dffa5f062f.png",
+    "index.html": "/pokeReact/index.html",
+    "main.134f2eca.css.map": "/pokeReact/static/css/main.134f2eca.css.map",
+    "main.33e66ad5.js.map": "/pokeReact/static/js/main.33e66ad5.js.map",
+    "787.918b1e69.chunk.js.map": "/pokeReact/static/js/787.918b1e69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.134f2eca.css",
+    "static/js/main.33e66ad5.js"
+  ]
+}
