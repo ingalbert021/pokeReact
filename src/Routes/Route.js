@@ -14,6 +14,7 @@ export default function Rutas() {
         <Header />
         <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/pokeReact/" element={<Landing />} />
         <Route path="/poke" element={<Poke/>} />
         <Route path="*" element={<NotFount />} />    
         </Routes>
